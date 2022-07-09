@@ -1,59 +1,69 @@
-body{
+body {
     background: linear-gradient(rgb(85, 213, 252), white);
 }
-.barra{
+
+.barra {
     border: 3px white solid;
     border-radius: 30%;
 }
-.todo{
+
+.todo {
     font-size: 1.5rem;
 }
-h1{
+
+h1 {
     font-size: 1.2rem;
 }
-.Daniel{
-    width: 22%;
+
+.Daniel {
+    width: 200px;
+    height: 200px;
     border-radius: 22%;
     border: white solid;
     padding: 1%;
 }
-.lista{
+
+.lista {
     display: flex;
     justify-content: space-around;
     color: black;
 }
-.acercade{
-    display: flex;
-    justify-content: space-around;
-}
-.pro{
-    display: flex;
-    justify-content: space-around;
-}
-.ha{
+
+.acercade {
     display: flex;
     justify-content: space-around;
 }
 
+.pro {
+    display: flex;
+    justify-content: space-around;
+}
 
-.wrapper{
+.ha {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper {
     width: 400px;
     font-family: 'Roboto', sans-serif;
-margin:0 auto;
+    margin: 0 auto;
 }
+
 .skill {
     margin-bottom: 35px;
     position: relative;
-  overflow-x:hidden;
-  
+    overflow-x: hidden;
 }
-.skill > p {
+
+.skill>p {
     font-size: 18px;
     font-weight: 700;
     color: #1a1716;
     margin: 0;
 }
-.skill:before{
+
+.skill:before {
     width: 100%;
     height: 5px;
     content: "";
@@ -62,20 +72,23 @@ margin:0 auto;
     background: #959595;
     bottom: 0;
 }
+
 .skill-bar {
     width: 100%;
     height: 5px;
-    background:#f4392f;
+    background: #f4392f;
     display: block;
     position: relative;
 }
 
+
 /* SKILL 1 */
-.skill1{
+
+.skill1 {
     width: 95%;
-  
 }
-.skill-bar span{
+
+.skill-bar span {
     position: absolute;
     border-top: 5px solid #f4392f;
     top: -30px;
@@ -84,32 +97,41 @@ margin:0 auto;
     padding: 3px 0;
     font-weight: 500;
 }
+
 .skill-bar {
     position: relative;
-  
 }
 
 .skill1 .skill-count1 {
     right: 0;
 }
+
+
 /* SKILL 2 */
-.skill2{
+
+.skill2 {
     width: 85%;
 }
 
 .skill2 .skill-count2 {
     right: 0;
 }
+
+
 /* SKILL 3 */
-.skill3{
+
+.skill3 {
     width: 75%;
 }
+
 .skill3 .skill-count3 {
     right: 0;
 }
 
+
 /* SKILL 4 */
-.skill4{
+
+.skill4 {
     width: 65%
 }
 
@@ -117,8 +139,10 @@ margin:0 auto;
     right: 0;
 }
 
+
 /* SKILL 5 */
-.skill5{
+
+.skill5 {
     width: 80%;
 }
 
@@ -126,36 +150,43 @@ margin:0 auto;
     right: 0;
 }
 
+
 /* SKILL 6 */
-.skill6{
+
+.skill6 {
     width: 90%
 }
 
 .skill6 .skill-count6 {
     right: 0;
 }
+
+
 /* GITHUB SOURCE STYLE  */
-.github-source{
-float:right;
-display:block;
-color:#fff;
-margin:0 20px;
-position: relative;
-z-index:999999;
-top:0;
-}
-.github-source i{
-font-size:50px;
-color:#000
+
+.github-source {
+    float: right;
+    display: block;
+    color: #fff;
+    margin: 0 20px;
+    position: relative;
+    z-index: 999999;
+    top: 0;
 }
 
-.footer{
+.github-source i {
+    font-size: 50px;
+    color: #000
+}
+
+.footer {
     border: 3px rgb(85, 213, 252) solid;
     display: flex;
     justify-content: space-around;
     border-radius: 30%;
 }
-.con{
+
+.con {
     display: flex;
     justify-content: space-around;
 }
